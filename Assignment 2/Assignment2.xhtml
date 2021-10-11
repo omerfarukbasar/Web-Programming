@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--
+    Author: Omer basar
+    Assignment: 2
+    Version: 9/23/21
+-->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>Assignment 2</title>
+    </head>
+
+    <body>
+        <!--
+            Here is the textbox functionality
+        -->
+        <form action="">
+            <p>Please enter your username in the text box below.</p>
+            <p> <input type = "text" name="Name" size="25" /> </p>
+        </form>
+        <!--
+            Here is the checkbox functionality
+        -->
+        <form action="">
+            <p>Select as many items as you wish to purchase.</p>
+            <p> 
+                <input type="checkbox" name="shoppinglist" 
+                value="4regularlightbulbs" /> Four 25-watt light bulbs for $2.39
+                <br />
+                <input type="checkbox" name="shoppinglist" 
+                value="8regularlightbulbs" /> Eight 25-watt light bulbs for $4.29
+                <br />
+                <input type="checkbox" name="shoppinglist" 
+                value="4upgradedlightbulbs" /> Four 25-watt, long-life light bulbs for $3.95
+                <br />
+                <input type="checkbox" name="shoppinglist" 
+                value="8upgradedlighbulbs" /> Eight 25-watt, long-life light bulbs for $7.49
+            </p>
+        </form>
+        <!--
+            Here is the radio functionality
+        -->
+        <form action = "">
+            <p>Select one of the following payment options below.</p>
+            <p>
+                <input type="radio" name="card" value="visa" /> Visa
+                <input type="radio" name="card" value="mastercard" /> Mastercard
+                <input type="radio" name="card" value="discovery" /> Discovery
+            </p>
+        </form>
+        <!--
+            Here is the submit functionality, mostly used to reset everything for this scenario
+        -->
+        <form action = "">
+            <p>Confirm and submit your selections.</p>
+            <p>
+                <input type="submit" value="Submit" />
+            </p>
+        </form>
+        
+
+    </body>
+
+</html>
