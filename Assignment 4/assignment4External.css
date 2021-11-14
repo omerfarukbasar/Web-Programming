@@ -1,0 +1,48 @@
+  body {
+    background-color: rgb(135, 241, 170);
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(41, 53, 230);
+    font-family: Tahoma;
+  }
+
+  h2 {
+      color: rgb(170, 25, 170);
+      font-family: monospace;
+  }
+
+  h3 {
+    color: rgb(228, 80, 21);
+    font-family: cursive;
+    font-size: 30px;  
+  }
+
+  p.p1{
+    color: rgb(51, 48, 47);
+    font-family: Georgia;
+    font-size: 15px;        
+  }
+
+  p.p2{
+    color: rgb(51, 48, 47);
+    font-family: Helvetica;
+    font-size: 18px;
+  }
+
+  p.p3{
+    color: rgb(51, 48, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+
+  img {
+      border-radius: 20px;
+      background-color: rgb(241, 225, 135);
+  }
+
+  a {
+      color: rgb(133, 51, 226);
+      font-family: sans-serif
+  }
